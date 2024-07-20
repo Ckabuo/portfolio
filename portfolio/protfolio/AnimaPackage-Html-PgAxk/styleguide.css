@@ -1,0 +1,20 @@
+:root {
+  --cali-font-family: "WorkSans-Light", Helvetica;
+  --cali-font-weight: 300;
+  --cali-font-size: 64px;
+  --cali-letter-spacing: 3.2px;
+  --cali-line-height: normal;
+  --cali-font-style: normal;
+  --cali-b-font-family: "WorkSans-ExtraLight", Helvetica;
+  --cali-b-font-weight: 200;
+  --cali-b-font-size: 24px;
+  --cali-b-letter-spacing: 6.6px;
+  --cali-b-line-height: normal;
+  --cali-b-font-style: normal;
+  --cali-m-font-family: "WorkSans-Light", Helvetica;
+  --cali-m-font-weight: 300;
+  --cali-m-font-size: 32px;
+  --cali-m-letter-spacing: 0.16px;
+  --cali-m-line-height: normal;
+  --cali-m-font-style: normal;
+}

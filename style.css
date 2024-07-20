@@ -1,0 +1,336 @@
+body {
+    /* position: relative; */
+    /* height: 2376px; */
+    background-color: #131416;
+}
+
+.contact {
+    position: relative;
+    width: 152px;
+    height: 54px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px #8cde934c;
+}
+
+.contact-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 15px;
+    left: 24px;
+}
+
+.contact-text {
+    position: absolute;
+    width: 72px;
+    top: 18px;
+    left: 56px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #191f25;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+}
+
+.IMAGE {
+    width: 100%;
+    height: auto;
+}
+ 
+.text-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+ 
+.text-wrapper {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+ 
+.profile-name {
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0.4px;
+}
+ 
+.profile-text {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #6e7985;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+ 
+.project-text-1 {
+    /* position: absolute; */
+    width: 343px;
+    /* top: 461px; */
+    /* left: 0; */
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.project-text-2 {
+    /* position: absolute; */
+    width: 101px;
+    /* top: 490px; */
+    /* left: 0; */
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #6e7984;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+/* Last image styling */
+.portfolio-item-nth {
+    position: relative;
+    overflow: hidden; /* Ensure the overlay doesn't extend beyond the image */
+}
+
+.frame-5{
+    position: relative;
+    width:  100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-img-nth {
+    width:  100%;
+    height: auto;
+}
+
+.d-flex-nth {
+    position: absolute;
+    top:  0;
+    left:  0;
+    width:  100%;
+    height:  85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.group-10, .group-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index:  1; /* Ensure the text appears above the image */
+}
+
+.text-wrapper-10,
+.text-wrapper-11,
+.text-wrapper-12 {
+    margin:  0.5em  0; /* Add some spacing between the text elements */
+    font-family: "Inter", Helvetica;
+    font-weight:  400;
+    color: #ffffff;
+}
+
+.text-wrapper-10 {
+    font-size:  2rem; /* Start with a larger font size */
+}
+
+.text-wrapper-11 {
+    font-size:  1.5rem; /* Slightly smaller than the title */
+}
+
+.text-wrapper-12 {
+    font-size:  1rem; /* Smaller font size for the paragraph */
+}
+
+.contact-nth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0.5rem  1rem;
+    background-color: #ffffff;
+    border-radius:  16px;
+    box-shadow:  0px  0px  20px #8cde934c;
+    text-decoration: none;
+    transition: background-color  0.3s ease;
+}
+
+.contact-nth:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.contact-icon-nth {
+    width:  24px;
+    height:  24px;
+    margin-right:  0.5rem; /* Space between icon and text */
+}
+
+.contact-text {
+    font-family: "Inter", Helvetica;
+    font-weight:  400;
+    color: #191f25;
+    font-size:  1rem;
+}
+
+/*  */
+
+/* .group-10 {
+    position: absolute;
+    width: 661px;
+    height: 144px;
+    top: 64px;
+    left: 272px;
+} */
+
+/* .text-wrapper-10 {
+    position: absolute;
+    width: 471px;
+    top: 0;
+    left: 92px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 39px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+} */
+
+/* .text-wrapper-11 {
+    position: absolute;
+    width: 343px;
+    top: 48px;
+    left: 156px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+} */
+
+/* .text-wrapper-12 {
+    position: absolute;
+    width: 655px;
+    top: 120px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #6e7985;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+} */
+
+/* .group-11 {
+    position: absolute;
+    width: 154px;
+    height: 54px;
+    top: 232px;
+    left: 524px;
+} */
+
+.group-12 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-3, .img-4, .img-5 {
+    order:  2; /* This will place the images after the text */
+    margin-left: auto; /* This will push the images to the right */
+    width: auto; /* Set the width to auto to maintain aspect ratio */
+    height: auto; /* Set the height to auto to maintain aspect ratio */
+}
+
+.text-wrapper-13 {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #6e7984;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: auto; /* This will push the text to the left */
+    flex-basis:  100%; /* This will take full width on smaller screens */
+    text-align: left; /* Align the text to the left */
+    padding: 0 1rem;
+}
+
+/* Media Query for Small Devices (Mobile Phones) */
+@media only screen and (max-width:  576px) {
+    .profile {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .text-wrapper-10,
+    .text-wrapper-11,
+    .text-wrapper-12 {
+        font-size:  1rem; /* Further reduce font size for very small screens */
+    }
+    
+}
+
+/* Media Query for Medium Devices (Tablets) */
+@media only screen and (min-width:  577px) and (max-width:  768px) {
+    .text-wrapper-10,
+    .text-wrapper-11,
+    .text-wrapper-12 {
+        font-size:  1.2rem; /* Reduce font size for smaller screens */
+    }
+
+    .text-wrapper-13 {
+        flex-basis:  100%; /* Take full width on mobile */
+    }
+
+    .img-3, .img-4, .img-5 {
+        flex-basis:  60%; /* Take full width on mobile */
+        margin-left:  0; /* Remove left margin on mobile */
+    }
+}
+
+/* Media Query for Large Devices (Desktops) */
+@media only screen and (min-width:  769px) and (max-width:  992px) {
+    .text-wrapper-container {
+        /* Adjust styles for large screens */
+    }
+    .profile-text {
+        /* Adjust styles for large screens */
+    }
+    .project-text-1, .project-text-2 {
+        /* Adjust styles for large screens */
+    }
+    /* Add more styles as needed */
+}
+
+/* Media Query for Extra Large Devices (Large Desktops) */
+@media only screen and (min-width:  993px) {
+    .text-wrapper-container {
+        /* Adjust styles for extra large screens */
+    }
+    .profile-text {
+        /* Adjust styles for extra large screens */
+    }
+    .project-text-1, .project-text-2 {
+        /* Adjust styles for extra large screens */
+    }
+    /* Add more styles as needed */
+}
